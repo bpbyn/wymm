@@ -1,0 +1,20 @@
+.app {
+  width: 100%;
+
+}
+
+.hearts {
+  display: flex;
+  gap: 5vw;
+  isolation: isolate;
+}
+
+.hearts > svg {
+  --size: min(80px, 8vmin);
+  /* color: var(--color-text); */
+  opacity: 0;
+  /* width: var(--size); */
+  /* height: var(--size); */
+  transform: translateY(50vh);
+  overflow: visible;
+}
